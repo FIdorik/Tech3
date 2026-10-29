@@ -1,0 +1,14 @@
+:root { --bs-primary: #315efb; --bs-primary-rgb: 49, 94, 251; }
+body { background: #f4f6fa; color: #202b40; }
+.brand { font-size: 1.15rem; font-weight: 800; color: #254ad5; letter-spacing: .06em; }
+.brand-caption { font-size: .8rem; font-weight: 400; color: #677285; letter-spacing: normal; }
+.eyebrow { font-size: .68rem; letter-spacing: .15em; font-weight: 700; color: #586b8b; }
+.card { border-radius: 1rem; }
+.metric-value { font-size: 2.25rem; font-weight: 700; letter-spacing: -.05em; }
+.metric-index { color: #96a2b6; font-size: .75rem; }
+.summary-card { background: #e9eefc; }
+.table th { color: #69778d; font-size: .75rem; font-weight: 600; }
+.table td { padding-top: .9rem; padding-bottom: .9rem; }
+.progress { height: .5rem; }
+.btn-primary { --bs-btn-bg: #315efb; --bs-btn-border-color: #315efb; }
+@media (max-width: 575.98px) { .brand-caption { display: none; } .table { font-size: .85rem; } }
